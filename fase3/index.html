@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="img/css/all.min.css">
+</head>
+<body>
+    <header style="margin: auto; width: 100%; height: 40%;" >
+        <h1><i><ins> HTML5</ins></i><br> Etiquetas Básicas de HTML,
+            atributos y valores</h1>
+           
+    </header>
+    <hr>
+    <!--Menu-->
+    <nav class="nav">
+        <ul>
+            <li><a href="#"><span class="c1"><i class="fas fa-home"></i></span>  Inicio</a></li>
+            <li><a href="#"><span class="c2"><i class="fas fa-list"></i></span>  Temas</a>
+                <ul>
+                    <li><a href="#" class="t1">Tema #1</a></li>
+                    <li><a href="#" class="t2">Tema #2</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><span class="c3"><i class="far fa-play-circle"></i> </span>  Recursos</a></li>
+            <li><a href="#"><span class="c4"><i class="fas fa-chalkboard-teacher"></i> </span>  Aprendizaje</a></li>
+            <li><a href="#"><span class="c5"><i class="fas fa-address-card"></i> </span>  Acerca de</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <section>
+            <h3><strong>Propósito del Sitio</strong></h3>
+            <p>El propósito del sitio es dinamizar y proyectar el aprendizaje del tema del HTML5 sus etiquetas básicas, atributos y valores </p>
+            <br><br>
+
+            <article>
+                <center><h2><i><ins>Temas</ins></i></h2></center><br><br>
+                <h3>Tema 1</h3>
+                <center><p><h2>¿Qué es el HTML5?</h2></p><br></center>
+                <center><img src="img/img1.png" alt="Logo HTML5"></center>
+                <p>
+                    Es una combinación de nuevas etiquetas de <strong><i>HTML</i></strong>, propiedades de <strong><i>CSS3</i></strong>, <strong><i>JavaScript</i></strong> y de algunas tecnologías complementarías de apoyo. Toda esta mezcla es con el fin de mejorar la experiencia y simplificar los procesos que se han venido trabajando con las versiones anteriores del <strong><i>HTML</i></strong>.
+
+                </p>
+                <p><h6><i>Ochoa Torres, J. (04,12,2018). O.V.I. Definición de HTML5. [Archivo de Video]. Recuperado de http://hdl.handle.net/10596/22593</i></h6></p>
+            </article><br>
+            <article>
+                <h3>Tema 2</h3>
+               <center> <p><h2> Etiquetas Básicas, Atributos y Valores</h2></p><br></center>
+                <center><img src="img/img2.png" alt="Etiqueta, Atributo y Valor"></center>
+                <p>
+                  <h3><strong><i>* Etiquetas:</i></strong></h3><br>
+                  Las etiquetas en <strong><i>HTML</i></strong> se escriben con la siguiente formato: <br><center><strong><p> < marca > contenido < /marca  ></p></strong></center><br>
+                  En en <strong><i>HTML</i></strong> hay muchas etiquetas emparejadas, es decir, que tienen un inicio y un cierre, como por ejemplo: <br><br>
+                  <center><strong> < h1 > <i>(Inicio)</i><br>  < /h1 > <i>(Cierre)</i></strong></center><br>
+                  Sin embargo, <strong><i>HTML</i></strong> cuenta a su vez con etiquetas sin emparejar, es decir, que terminan con una barra inclinada, como por ejemplo: <br><br>
+                  <center><strong> < hr / ></strong></center><br>
+                  Como también permite que existan etiquetas sin necesidad de cierre <strong>(<i> < / ></i>)</strong> como por ejemplo: <br><br>
+                  <center><strong> < img ></strong></center><br>
+                  Ahora bien al saber que es una etiqueta y cómo está formada, vamos a presentar cuales son las etiquetas básicas esenciales para utilizar <strong><i>HTML</i></strong><br><br>
+                  <h4><strong><i>< header >:</i></strong></h4> Es la etiqueta que se utiliza para presentar la información introductoria del documento, que va ubicada en la cabecera del documento o en una sección, es por ello que pueden haber más de uno en el documento. <br><br>
+                  <h4><i> < footer >:</footer></i></h4><br>
+                  Es la etiqueta que se utiliza para contener la información sobre el autor (es), derechos, términos de uso, información de contacto, y se ubica en la parte final del documento. <br><br>
+                  <h4><i>< nav >:</nav></i></h4><br>
+                  Es la etiqueta que se usa para representar la sección que contiene los enlaces de navegación por el sitio web. <br><br>
+                  <h4><i>< section >:</i></h4><br>
+                  Es la etiqueta que define una sección del documento. <br><br>
+                  <h4><i>< aside >:</Aside></i></h4><br>
+                  Es la etiqueta que define el contenido secundario, por lo general es una barra lateral, y todo lo que contiene suele estar relacionado con el contenido principal. <br><br>
+                  <h4><i> < figure > y < figcaption >:</i></h4><br>
+                  Son etiquetas que se usas para utilizar y definir un elemento independiente que guarda relación con el elemento que lo contiene; estos pueden ser una imagen, un fragmento de código, un diagrama, etc. <strong><i>< figcaption ></i></strong> se utiliza para adicionarle a este elemento independiente un título o una leyenda para identificarlo. <br><br>
+                  <h4><i>< details >:</i></h4><br>
+                  Esta etiqueta se usa para ocultar una serie de detalles por parte del usuario. <br><br>
+                  <h2><i>*Atributos y Valores</i></h2><br><br>
+                  Los atributos son los que especifican algunas características singulares de un elemento o información adicional.
+                  Los atributos se especifican como pares <strong><i>atributo="valor"</i></strong>, separados por espacios dentro de la etiqueta de inicio: <br>
+                  <center><strong><i>< etiqueta atributo = "valor" > texto < / etiqueta></etiqueta></i></strong></center> <br> 
+                  En el siguiente ejemplo se presenta el uso del valor, el cual aunque no es obligatorio que vaya entre comillas, es recomendable usarlo de esa manera para mayor comprensión: <br><br>
+                  <center><strong><i>< a href = "http://www.ra-ma.es/" > Editorial RA-MA < / a ></i></strong></center><br><br>
+                  Existen atributos genéricos, como el <strong><i>id = "texto"</i></strong>, que se pueden utilizar para asociar a cualquier etiqueta. Esto es de gran ayuda al momento de utilizar <strong><i>CSS</i></strong> y <strong><i>JavaScript</i></strong> pues facilita mucho la comprensión entre ellas y evita confusiones. <br> Al tener esta ventaja también podemos asignar identificadores únicos a elementos dentro de la página tales como <strong><i>class = "texto"</i></strong>, para así poder modificar y manipular dicho elemento sin necesidad de afectar a otros. También a dicho conjunto de elementos de la misma clase los podemos modificar de manera conjunta utilizando <strong><i>style = "texto"</i></strong>, además al colocarle un título al elemento se logra mejorar la accesibilidad ya que los navegadores lo muestran cuando el usuario pasa el ratón por encima del elemento, esto se logra utilizando <strong><i>title = "texto"</i></strong>
+
+                </p>
+                <p><h6><i>Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. RA-MA Editorial. (Pág. 52 a 142) Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=52</i></h6></p><br><br>
+            </article>
+
+            <article>
+
+                <center><h2><i><ins> Recursos</ins></i></h2></center><br><br>
+                <p><h3>Recurso 1</h3>
+                En el siguiente video se puede profundizar el concepto de <strong><i>HTML5</i></strong></p><br>
+                <video src="recursos/html5.mp4" controls></video>
+            
+
+                <p><h3>Recurso 2</h3>
+                    El siguiente video es para profundizar y ver de manera práctica el uso de los atributos. <br><br>
+                    <video style="margin: auto;" width="40%" controls>
+                        <source src= "recursos/Qué son los ATRIBUTOS en HTML con ejemplos prácticos_1080pFHR.mp4">
+                    </video>
+                </p><br><br><br>
+            </article>
+            <!-- Esta parte de las actividades solo es una muestra, por lo tanto no es funcional y también cambiable -->
+            <article>
+                <center><h2><i><ins>Aprendizaje</ins></i></h2></center><br><br>
+                <h3>Actividad 1</h3>
+                <p><strong>¿Qué usa un lenguaje de marcado para identificar contenido?</strong></p><br>
+                    <h4><strong>A) Scripts</strong></h4><br><h4><strong>B) Etiquetas</strong></h4><br><h4><strong>C) Enlaces</strong></h4>
+
+                <form action= "Actividad_1.php" method="post">
+                    <input type="text"maxlength="1" name="pregunta1">Ingrese la opción correcta <br> 
+                    <input type="submit" value="Resultado">
+                </form>
+
+                <h3>Actividad 2</h3>
+                <p><strong>¿Cuál es la extensión correcta para archivos HTML?</strong></p><br>
+                    <h4><strong>A) .txt</strong></h4><br><h4><strong>B) .css</strong></h4><br><h4><strong>C) .html</strong></h4>
+
+                <form action= "Actividad_2.php" method="post">
+                    <input type="text"maxlength="1" name="pregunta1">Ingrese la opción correcta <br> 
+                    <input type="submit" value="Resultado">
+                </form>
+                
+            </article><br><br>
+
+            <article>
+                <h3><strong><i><center>Acerca de (Autor)</center></i></strong></h3>
+            </article>
+
+            <p><h4><strong>Nombre: Josue Mejia</strong></h4></p>
+            <p><h4><strong>Skype = live:josue_m0807</strong></h4></p>
+            <img style= "margin: auto;" width="20%" src= "img/B.jpg" alt="Autor">
+
+
+        </section>
+    </main>
+    <hr>
+    <h2>Mi Mockup</h2>
+    <img style="margin: auto;" width="100%" src="img/img3.png" alt="Mockup">
+    <hr>
+    <footer>
+        <p>
+            Correo: castromejia7@gmail.com <br>
+            Skype:live:josue_m0807 <br>
+            Fecha: Diciembre 2021
+        </p>
+    </footer>
+    <hr>
+</body>
+</html>
